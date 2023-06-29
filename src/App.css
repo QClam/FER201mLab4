@@ -1,0 +1,280 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* .App{
+  text-align: left;
+}
+
+.App li{
+  display: inline;
+  padding: 1%;
+}
+
+.App ul{
+  padding: 1%;
+}
+
+.App .card{
+  background-color: whitesmoke;
+}
+
+.App .list-heading{
+text-align: center;
+}
+
+.App .active:hover{
+  color: yellow;
+}
+
+
+.App .film-item{
+  margin-left: 13%;
+}
+
+.App .card{
+  width: fit-content;
+}
+
+.App h3{
+  text-align: center;
+}
+
+.App p{
+  text-align: center;
+}
+
+.btn{
+  background-color: black;
+}
+
+.App a{
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-list li {
+  margin-right: 10px;
+}
+
+.navigation-list li:last-child {
+  margin-right: 0;
+}
+
+.navigation-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.navigation-list li a.active {
+  font-weight: bold;
+}
+
+.film-search{
+  margin: 10px;
+  margin-left: 43%;
+}
+
+.list-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.film-search input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup img{ width: 100%;}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {color: #06D85F;}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+} */
+
+.App .menu{
+  padding-left: 1%;
+}
+
+.film-card .card-action {
+  display: flex;
+  justify-content: center;
+}
+
+
+.film-list{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.App img{
+  height: 320px;
+}
+
+.film-card{
+  height: 500px;
+}
+
+.App button{
+  background-color: white;
+  color: rgb(57, 129, 185);
+  border: none;
+}
+
+/*Css cho detail*/
+
+.container-details {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card {
+  width: 450px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.badge {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.product-tumb {
+  text-align: center;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.product-tumb img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.product-details h4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.product-details p {
+  margin-bottom: 10px;
+}
+
+.product-bottom-details {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.product-card {
+  position: relative;
+}
+
+.btn-floating {
+  position: absolute;
+  top: 50vh;
+  right: 10px;
+}
+
+.modal-show {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vmax;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
