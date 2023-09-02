@@ -8,7 +8,7 @@ export const Films = [
     },
 
     {
-        id: 3, img: 'assets/img/doraemon.jpg', clip:'https://www.youtube.com/embed/bUTfUVLP_Zk', title: 'Doraemon: Nobita vùng đất lý tưởng trên bầu trời', year: '2023', nation: 'Japan' , info:'Doraemon is a fictional protagonist in the Manga series of the same name by artist Fujiko F. Fujio. In the story set in the 22nd century, Doraemon is a robot cat of the future run by the Matsushiba factory - a factory specializing in manufacturing robots originally intended to take care of children.'
+        id: 3, img: 'assets/img/doraemon2.jpg', clip:'https://www.youtube.com/embed/bUTfUVLP_Zk', title: 'Doraemon: Nobita vùng đất lý tưởng trên bầu trời', year: '2023', nation: 'Japan' , info:'Doraemon is a fictional protagonist in the Manga series of the same name by artist Fujiko F. Fujio. In the story set in the 22nd century, Doraemon is a robot cat of the future run by the Matsushiba factory - a factory specializing in manufacturing robots originally intended to take care of children.'
     },
 
     {
